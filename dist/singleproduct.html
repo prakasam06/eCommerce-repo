@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./logo britto clothing2.png" />
+    <title>BRitto my product</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <h3>BRITTO CLOTHINGS</h3>
+      <div class="list">
+        <ul id="navbar">
+          <li><a href="./index.html">Home</a></li>
+
+          <li>
+            <a href="./cartpage.html"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="" id="user"><i class="fa-solid fa-user"></i></a>
+          </li>
+
+          <li>
+            <a href=""><i class="fa-solid fa-headset"></i></a>
+          </li>
+          <li>
+            <a href="" id="signout"
+              ><i class="fa-solid fa-right-from-bracket"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="productdetails" class="section-p1">
+      <div class="single-pro-image">
+        <img width="100%" id="mainimg" alt="" />
+
+        <div class="small-images-grp">
+          <div class="small-imgs">
+            <img id="small1" width="100%" class="small-img-1" alt="" />
+          </div>
+          <div class="small-imgs">
+            <img id="small2" width="100%" class="small-img-3" alt="" />
+          </div>
+          <div class="small-imgs">
+            <img id="small3" width="100%" class="small-img-3" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="single-pro-det">
+        <div class="proname">
+          <h4 id="productname"></h4>
+        </div>
+        <div class="price">
+          <h2 id="price">$123.00</h2>
+        </div>
+        <div class="select">
+          <select id="selectsize">
+            <option value="">Select size</option>
+            <option value="L">L</option>
+            <option value="M">M</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXl</option>
+          </select>
+          <input type="number" name="" id="quantity" value="1" />
+          <button id="addcartbutton">Add to Cart</button>
+        </div>
+        <div id="desc-div">
+          <div class="desc">
+            <h4>Product Details</h4>
+            <span id="description"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <p>BRITTO CLOTHING</p>
+    </footer>
+    <script src="bundle.js"></script>
+  </body>
+</html>
