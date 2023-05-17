@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGNUP</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <h3>BRITTO CLOTHINGS</h3>
+      <div class="list">
+        <ul id="navbar">
+          <li><a href="./index.html">Home</a></li>
+
+          <li>
+            <a href="./cartpage.html"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="" id="user" class="active"
+              ><i class="fa-solid fa-user"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href=""><i class="fa-solid fa-headset"></i></a>
+          </li>
+          <li>
+            <a href="" id="signout"
+              ><i class="fa-solid fa-right-from-bracket"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <div class="overlay">
+      <!-- LOGN IN FORM by Omar Dsoky -->
+      <form id="sign" class="signupform">
+        <!--   con = Container  for items in the form-->
+        <div class="con">
+          <!--     Start  header Content  -->
+          <header class="head-form">
+            <h2>SIGN UP</h2>
+            <!--     A welcome message or an explanation of the login form -->
+            <p></p>
+          </header>
+          <!--     End  header Content  -->
+          <br />
+          <div class="field-set">
+            <!--   user name -->
+            <span class="input-item">
+              <i class="fa fa-user-circle"></i>
+            </span>
+            <!--   user name Input-->
+            <input
+              class="form-input"
+              id="emailsignup"
+              type="text"
+              placeholder="EMAIL"
+            />
+
+            <br />
+
+            <!--   Password -->
+
+            <span class="input-item">
+              <i class="fa fa-key"></i>
+            </span>
+            <!--   Password Input-->
+            <input
+              autocomplete="off"
+              class="form-input"
+              type="text"
+              placeholder="Password"
+              id="passwordsign"
+              name="password"
+            />
+
+            <!--      Show/hide password  -->
+
+            <br />
+            <!--        buttons -->
+            <!--      button LogIn -->
+            <button class="log-in" id="signupbutton">SIGN UP</button>
+          </div>
+
+          <!--   other buttons -->
+          <div class="other">
+            <!--      Forgot Password button-->
+            <button id="hide" class="btn submits frgt-pass"></button>
+            <!--     Sign Up button -->
+            <button id="little" class="btn submits sign-up">
+              LOGIN
+
+              <i class="fa fa-user-plus" aria-hidden="true"></i>
+            </button>
+            <!--      End Other the Division -->
+          </div>
+
+          <!--   End Conrainer  -->
+        </div>
+
+        <!-- End Form -->
+      </form>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
